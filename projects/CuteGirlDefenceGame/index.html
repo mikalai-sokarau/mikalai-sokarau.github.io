@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cute Girl Defence</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="bundle.js" defer></script>
+</head>
+<body>
+<div class="content">
+    <main>
+        <section class="active" id="start-screen">
+            <div id="menu-wrapper">
+                <img src="images/main_page_logo.png" alt="Cute girl">
+                <h1>Cute girl defence</h1>
+                <nav>
+                    <ul>
+                        <li class="game"><a href="#game">Play</a></li>
+                        <li class="description"><a href="#description">Description</a></li>
+                        <li class="screenshots"><a href="#screenshots">Screenshots</a></li>
+                        <li class="controls-manual"><a href="#controls-manual">Controls manual</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section id="description">
+            <div id="description-wrapper">
+                <h2>Hello, my name is Alice!</h2>
+                <p>I should find these flowers in the forest - <img src="images/common/flower_single.png" alt="flower">,
+                    and I will have only 10 seconds for it.</p>
+                <p>Every picked flower will give me a few seconds extra time,
+                    it means that I should do it as fast as I can, before the time runs out.</p>
+                <p>But this isn't the worst news in my story.</p>
+                <p>The forest is full of hungry zombies.</p>
+                <p>I hope you will take this sword and will be dare to beat them all.<img
+                        src="images/common/sword.png" alt="sword"></p>
+                <p>Let's see what we can do together.</p>
+            </div>
+        </section>
+        <section id="screenshots">
+            <div id="screenshots-wrapper">
+                <figure>
+                    <img src="./images/screenshots/screenshot_1.png" alt="game screenshot">
+                    <figcaption>Pluck the flowers</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/screenshots/screenshot_2.png" alt="game screenshot">
+                    <figcaption>Run away from zombies</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/screenshots/screenshot_3.png" alt="game screenshot">
+                    <figcaption>Defend a cute girl</figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/screenshots/screenshot_4.png" alt="game screenshot">
+                    <figcaption>Stay alive as long, as you can</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="controls-manual">
+            <div id="controls-wrapper">
+                <div id="girl-controls">
+                    <figure>
+                        <img src="images/controls_manual/letter_w.png" alt="letter w">
+                        <img src="images/controls_manual/arrow.png" alt="arrow top">
+                        <figcaption>Move top</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/controls_manual/letter_a.png" alt="letter a">
+                        <img src="images/controls_manual/arrow.png" alt="arrow left">
+                        <figcaption>Move left</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/main_page_logo.png" alt="cute girl">
+                    </figure>
+                    <figure>
+                        <img src="images/controls_manual/letter_d.png" alt="letter d">
+                        <img src="images/controls_manual/arrow.png" alt="arrow right">
+                        <figcaption>Move right</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/controls_manual/letter_s.png" alt="letter s">
+                        <img src="images/controls_manual/arrow.png" alt="arrow bottom">
+                        <figcaption>Move bottom</figcaption>
+                    </figure>
+                </div>
+                <div id="mouse-controls">
+                    <figure>
+                        <img src="images/controls_manual/computer_mouse.png" alt="computer mouse">
+                        <figcaption>Attack - mouse 1</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="game">
+            <div id="canvas-wrapper">
+                <div id="preloader">0%</div>
+                <div class="invisible" id="game-state">
+                    <div id="health">
+                        <div class="hearth"><img src="images/common/heart.png" alt="heart"></div>
+                        <div class="hearth"><img src="images/common/heart.png" alt="heart"></div>
+                        <div class="hearth"><img src="images/common/heart.png" alt="heart"></div>
+                    </div>
+                    <div id="timer"></div>
+                    <div id="score">0</div>
+                    <div id="desk"></div>
+                </div>
+                <div class="start-view" id="options">
+                    <span id="desk-text"></span>
+                    <button id="desk-button" type="button"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+<footer>
+    <a href="https://github.com/MikalaiSkru" target="_blank">Mikalai Sokarau 2017</a>
+</footer>
+</body>
+</html>
